@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Deploy
 
-> [Clique aqui para navegar para o projeto!](#)
+> [Clique aqui para navegar para o projeto!](https://ssschneider.github.io/alura-challenge-01/)
 
 
 <!-- ## 💻 Rode Local
@@ -41,7 +41,7 @@ Para rodar o projeto localmente, basta cumprir as seguintes etapas:
 Alura Decoder is a project developed as a challenge from the ONE program, offered by Alura Latam and Oracle. To do that, I've used:
 - HTML, CSS, Javascript, Git, Github and Figma
 
-> You can check out the deploy by [clicking here](#)!
+> You can check out the deploy by [clicking here](https://ssschneider.github.io/alura-challenge-01/)!
 <!-- ```
 ETAPAS PARA RODAR LOCAL EM PROJETOS MAIS COMPLEXOS
 ``` -->
