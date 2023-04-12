@@ -1,0 +1,61 @@
+@media (max-width: 1000px) {
+    main {
+        justify-content: center;
+        margin-bottom: 2.4rem;
+    }
+
+    .criptographed {
+        width: 100%;
+    }
+}
+
+@media (max-width: 783px) {
+    header {
+        width: 100%;
+        height: 10rem;
+        margin-bottom: 8rem;
+    }
+
+    .user-insert {
+        padding-left: 0;
+    }
+
+    .user-insert .info-warning span {
+        font-size: 1.2rem;
+    }
+    
+    .criptographed img {
+        display: none;
+    }
+
+    .criptographed .content {
+        width: 100%;
+        padding: 3.2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    nav {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+
+    nav .action:hover {
+        scale: none;
+        opacity: 0.9;
+    }
+
+    nav .action, .criptographed .action {
+        width: 100%;
+    }
+
+    .criptographed .content {
+        width: 100%;
+        padding: 3.2rem;
+    }
+
+    .criptographed #coded-text {
+        width: 100%;
+    }
+}

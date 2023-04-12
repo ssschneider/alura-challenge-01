@@ -1,0 +1,174 @@
+body {
+    background-color: var(--bg);
+}
+
+header {
+    height: 5rem;
+    width: 3.5rem;
+}
+
+header img {
+    padding: 4rem 8.4rem;
+    transition: var(--transition);
+}
+
+header img:hover {
+    scale: var(--scale);
+    opacity: 0.8;
+}
+
+main {
+    width: 100%;
+    max-width: 90%;
+    margin: 1.6rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+}
+
+.user-insert {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding-left: 12.4rem;
+}
+
+.user-insert #text, .criptographed #coded-text {
+    justify-self: flex-start;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    resize: none;
+    font-size: var(--text-bg);
+    color: var(--dark-blue);
+    border-bottom: 1px solid transparent;
+    transition: var(--transition);
+    max-height: 35rem;
+    max-width: 68rem;
+}
+
+.user-insert #text:focus {
+    border-bottom: 1px solid var(--dark-blue);
+}
+
+.user-insert #text::placeholder {
+    font-size: var(--text-bg);
+    color: var(--dark-blue);
+}
+
+.user-insert #text::selection {
+    background-color: var(--dark-blue);
+    color: var(--light-blue);
+}
+
+.user-insert .info-warning {
+    display: flex;
+    gap: .8rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.user-insert .info-warning span {
+    font-size: var(--text-sm);
+    color: var(--light-gray);
+}
+
+nav {
+    display: flex;
+    max-width: 68rem;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2.4rem;
+    margin-top: 1.2rem;
+}
+
+nav .action, .criptographed .action {
+    font-size: var(--text-sm);
+    padding: 2.4rem;
+    border-radius: 2.4rem;
+    border: 1px solid var(--dark-blue);
+    outline: none;
+    width: 32.8rem;
+    transition: var(--transition);
+}
+
+nav .action:hover {
+    scale: var(--scale);
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+nav .action.cryptograph {
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+nav .action.decrypt {
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+}
+
+.criptographed {
+    background-color: var(--white);
+    border-radius: 3.2rem;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    padding: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+    height: 100%;
+    align-self: top;
+}
+
+.criptographed .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+    width: 33.6rem;
+}
+
+.criptographed .content h3 {
+    font-size: var(--text-md);
+    color: var(--dark-gray);
+    font-weight: 700;
+    text-align: center;
+}
+
+.criptographed .content p {
+    font-size: var(--text-sm);
+    color: var(--light-gray);
+    text-align: center;
+}
+
+.criptographed #coded-text {
+    max-width: 35rem;
+    height: 100%;
+    color: var(--dark-gray);
+    font-size: var(--text-md);
+    text-align: left;
+}
+
+.criptographed #coded-text::selection {
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+}
+
+.criptographed .action.inactive {
+    display: none;
+}
+
+.criptographed .action {
+    background-color: transparent;
+    color: var(--dark-blue);
+}
+
+.criptographed .action:hover {
+    background-color: var(--light-blue);
+    cursor: pointer;
+}

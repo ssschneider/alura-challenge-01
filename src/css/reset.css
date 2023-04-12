@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --text-bg: 3.2rem;
+    --text-md: 2.4rem;
+    --text-sm: 1.6rem;
+
+    --dark-blue: #0A3871;
+    --light-blue: #D8DFE8;
+    --dark-gray: #343A40;
+    --light-gray: #495057;
+
+    --bg: #F3F5FC;
+    --white: #fff;
+
+    --transition: .5s linear;
+    --scale: 1.1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 400 62.5% 'Inter', sans-serif;
+}
+
+*::selection {
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+}
